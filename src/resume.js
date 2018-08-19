@@ -28,10 +28,10 @@ angular.module('Resume', ['ngMaterial'])
         <h2 class="page-title page-title-last" style="color:#1a8dff;">{{lastName}}</h2>
       </div>
       <div class="header-icons">
-        <span ng-if="website" class="md-subhead page-subhead"><a target="_blank" href="http://kanyewest.com" style="color:black"><i class="fa fa-lg fa-code"></i>{{website}}</a></span>
-        <span ng-if="email" class="md-subhead page-subhead"><a target="_blank" href="mailto:kanye@west.com" style="color:black;"><i class="fa fa-lg fa-envelope"></i>{{email}}</a></span>
-        <span ng-if="github" class="md-subhead page-subhead"><a target="_blank" href="http://github.com/kanyewest" style="color:black;"><i class="fa fa-lg fa-github"></i>{{github}}</a></span>
-        <span ng-if="linkedin" class="md-subhead page-subhead"><a md-theme="default" target="_blank" href="http://linkedin.com/in/kanyewest" style="color:black;"><i class="fa fa-lg fa-linkedin-square"></i>{{linkedin}}</a></span>
+        <span ng-if="website" class="md-subhead page-subhead"><a target="_blank" href="http://alextekle.com" style="color:black"><i class="fa fa-lg fa-code"></i>{{website}}</a></span>
+        <span ng-if="email" class="md-subhead page-subhead"><a target="_blank" href="mailto:alexander.tekle@utexas.edu" style="color:black;"><i class="fa fa-lg fa-envelope"></i>{{email}}</a></span>
+        <span ng-if="github" class="md-subhead page-subhead"><a target="_blank" href="http://github.com/alexandertekle" style="color:black;"><i class="fa fa-lg fa-github"></i>{{github}}</a></span>
+        <span ng-if="linkedin" class="md-subhead page-subhead"><a md-theme="default" target="_blank" href="http://linkedin.com/in/alexandertekle" style="color:black;"><i class="fa fa-lg fa-linkedin-square"></i>{{linkedin}}</a></span>
       </div>
     </div>`
   }
@@ -62,7 +62,7 @@ angular.module('Resume', ['ngMaterial'])
     transclude: true,
     template: `<div flex="" class="category-row">
       <div class="category">
-        <h5 class="category-row-title">{{name}}</h5> 
+        <h5 class="category-row-title">{{name}}</h5>
         <ng-transclude></ng-transclude>
       </div>
     </div>`
